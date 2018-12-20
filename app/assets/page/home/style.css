@@ -1,0 +1,90 @@
+.slide-block {
+  width: 100%;
+  padding-bottom: 44%;
+  position: relative;
+}
+
+.slide-block .slide-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.slick-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-wrapper .slick-slide {
+  position: relative;
+}
+
+
+.slick-slide .slide-img-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.slick-slide img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+
+.slide-dots {
+  text-align: center;
+  padding: 0px;
+  height: 3px;
+}
+
+.slide-dots:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.slide-btn-wrapper {
+  position: absolute;
+  bottom: 7%;
+  z-index: 5;
+  width: 100%;
+  padding: 0px;
+}
+
+.slide-btn-wrapper li {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  height: 3px;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.slide-btn-wrapper button:focus {
+  outline: 0;
+}
+
+.slide-btn-wrapper button {
+  border: none;
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.slide-btn-wrapper .slick-active button {
+  background-color: #c1272d;
+}
