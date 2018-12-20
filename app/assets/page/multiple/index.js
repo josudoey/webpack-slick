@@ -8,17 +8,9 @@ $('.media-container .media-wrapper').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  arrows: true
+  arrows: true,
+  centerMode: true
 })
-
-// const slickLi = $('.slide-dots li')
-// const slickLiWidth = parseInt(100 / (slickLi.length + 1))
-// slickLi.each(function (index, item) {
-//   $(item).css('width', slickLiWidth + '%')
-// })
-
-// $(window).resize(responsive)
-// responsive()
 
 $('.img-modal').click(function (e) {
   $('.modal').css('display', 'block')

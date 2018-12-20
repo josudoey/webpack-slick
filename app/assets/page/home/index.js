@@ -33,5 +33,5 @@ const responsive = function () {
   }, 0)
 }
 
-// $(window).resize(responsive)
-// responsive()
+$(window).resize(responsive)
+responsive()
